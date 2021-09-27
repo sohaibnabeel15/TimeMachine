@@ -1,0 +1,31 @@
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\bin\Debug\netcoreapp3.1\Time Machine.exe
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\bin\Debug\netcoreapp3.1\Time Machine.deps.json
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\bin\Debug\netcoreapp3.1\Time Machine.runtimeconfig.json
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\bin\Debug\netcoreapp3.1\Time Machine.runtimeconfig.dev.json
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\bin\Debug\netcoreapp3.1\Time Machine.dll
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\bin\Debug\netcoreapp3.1\Time Machine.pdb
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Time Machine.csprojAssemblyReference.cache
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Select_Year.g.cs
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Time Machine_MarkupCompile.cache
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Time Machine_MarkupCompile.lref
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Select_Year.baml
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Time Machine.g.resources
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Time Machine.AssemblyInfoInputs.cache
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Time Machine.AssemblyInfo.cs
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Time Machine.csproj.CoreCompileInputs.cache
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Time Machine.dll
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Time Machine.pdb
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Time Machine.genruntimeconfig.cache
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\150Million_BC.g.cs
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\2050_AD.g.cs
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Dinosaurs.g.cs
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Internet.g.cs
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Pyramids.g.cs
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\150Million_BC.baml
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\2050_AD.baml
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Dinosaurs.baml
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Internet.baml
+C:\Users\Sohaib Nabeel\source\repos\TIme Machine\TIme Machine\obj\Debug\netcoreapp3.1\Pyramids.baml

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="150Million_BC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="2050_AD.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Dinosaurs.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Internet.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pyramids.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Select_Year.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="150Million_BC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="2050_AD.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Dinosaurs.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Internet.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pyramids.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Select_Year.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

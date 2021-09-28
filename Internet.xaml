@@ -1,0 +1,53 @@
+﻿<Page x:Class="Time_Machine.Internet"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TIme_Machine"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="650"
+      Title="Internet">
+
+    <Grid x:Name="Internet_page" Background="Beige">
+        <StackPanel>
+            <TextBlock Grid.Column="15">
+            1983 AD <LineBreak></LineBreak>
+            USA
+            </TextBlock>
+            <Image Source = "./Images/internet.jpg" Height="483" Width="928"/>
+
+        </StackPanel>
+        
+        <Canvas
+        Grid.Row="0"
+        Grid.RowSpan="2"
+        Grid.Column="0"
+        Grid.ColumnSpan="3">
+            <Image 
+            Name="Description_png"
+            Canvas.Right="16"
+            Source="C:\Users\danch\Downloads\TimeMachine-main\TIme Machine\Images\information.png"
+            Width="48"
+            Height="66" Canvas.Left="602" Canvas.Top="1">
+                <Image.ToolTip>
+                    <ToolTip x:Name="tooltip1">
+                        <TextBlock x:Name="tooltiptext">
+                            The Birth of The Internet: 1983 (US).
+                            <LineBreak/>
+                          January 1, 1983 is considered the official birthday of the Internet.
+                            <LineBreak/>
+                            Prior to this, the various computer networks did not have a standard way to communicate with each other.
+
+                        </TextBlock>
+                    </ToolTip>
+                </Image.ToolTip>
+            </Image>
+            <Button x:Name="TimeMachine" Click="TimeMachine_Click">
+                <StackPanel>
+                    <Image Source="/Images/Time_Machine.png" Height="54" Width="62">
+                    </Image>
+                </StackPanel>
+            </Button>
+        </Canvas>
+    </Grid>
+</Page>

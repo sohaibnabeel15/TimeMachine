@@ -9,14 +9,15 @@
       Title="Pyramids">
 
     <Grid>
-        <TextBlock Grid.Column="15">
+
+        <StackPanel> 
+            <Image Grid.Column="0" Source = "/Images/pyramid.jpg"/>
+        </StackPanel>
+        <TextBlock Grid.Column="15" HorizontalAlignment="Center">
             2650BCE <LineBreak></LineBreak>
             The Great Pyramid of Giza
-
-        </TextBlock>
-        <StackPanel>
-            <Image Source = "/Images/pyramid.jpg"></Image>
-        </StackPanel>
+            </TextBlock>
+        
 
 
         <Canvas
@@ -58,7 +59,7 @@
                 </Image>
 
             </Button>
-            <Button x:Name="TimeMachine" Click="TimeMachine_Click">
+            <Button x:Name="TimeMachine" BorderThickness="0" Background="Transparent" Click="TimeMachine_Click">
                 <StackPanel>
                     <Image Source="/Images/Time_Machine.png" Height="54" Width="62">
                     </Image>

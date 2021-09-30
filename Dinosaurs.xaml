@@ -11,13 +11,14 @@
     <Grid x:Name="Dinosaurs_page" Background="Beige">
 
         <StackPanel>
-            <TextBlock Grid.Column="15" HorizontalAlignment="Center">
-            150MillionBCE <LineBreak></LineBreak>
-            Somewhere on Earth
-            </TextBlock>
+
             <Image Source = "/Images/dino1.jpg"/>
 
         </StackPanel>
+        <TextBlock Grid.Column="15" HorizontalAlignment="Center">
+            150MillionBCE <LineBreak></LineBreak>
+            Somewhere on Earth
+        </TextBlock>
 
 
 
@@ -46,7 +47,7 @@
                     </ToolTip>
                 </Image.ToolTip>
             </Image>
-            <Button x:Name="TimeMachine" Click="TimeMachine_Click">
+            <Button x:Name="TimeMachine" Background="Transparent" BorderThickness="0" Click="TimeMachine_Click">
                 <StackPanel>
                     <Image Source="/Images/Time_Machine.png" Height="54" Width="62">
                     </Image>

@@ -22,11 +22,12 @@ namespace Time_Machine
             InitializeComponent();
         }
 
-        private void TimeMachine_Click(object sender, RoutedEventArgs e)
+        private void OnClick(object sender, RoutedEventArgs e)
         {
             Select_Year year_page = new Select_Year();
             this.NavigationService.Navigate(year_page);
 
         }
+
     }
 }

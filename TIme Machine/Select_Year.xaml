@@ -1,4 +1,4 @@
-﻿<Page x:Class="Time_Machine.Select_Year"
+<Page x:Class="Time_Machine.Select_Year"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -10,18 +10,17 @@
 
     <Grid x:Name="Select_year_page" Background="Gray">
         <Grid.RowDefinitions>
-            <RowDefinition Height="57*"/>
-            <RowDefinition Height="377*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Label Content="Select Year To Travel" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Grid.Column="1"/>
-        <Button Content="150 Million BC" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="40,56,0,0" Grid.Row="1" VerticalAlignment="Top" Height="110" Width="184" Background="DarkCyan"/>
-        <Button Content="2560 BC" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="389,51,0,0" Grid.Row="1" VerticalAlignment="Top" Height="110" Width="184" Background ="DarkCyan"/>
-        <Button Content="1983 AD" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="40,237,0,0" Grid.Row="1" VerticalAlignment="Top" Height="110" Width="184" Background="DarkCyan"/>
-        <Button Content="2050 AD" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="389,232,0,0" Grid.Row="1" VerticalAlignment="Top" Height="110" Width="184" Background="DarkCyan"/>
-
+        <Button Content="150 Million BC" Grid.ColumnSpan="2" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Height="110" Width="184" Background="DarkCyan" Margin="185,51,0,0" Click="Dinosaur_Click"/>
+        <Button Content="2560 BC" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="389,51,0,0" Grid.Row="1" VerticalAlignment="Top" Height="110" Width="184" Background ="DarkCyan" Click="Pyramid_Click"/>
+        <Button Content="1983 AD" Grid.ColumnSpan="2" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Height="110" Width="184" Background="DarkCyan" Margin="185,232,0,0" Click="Internet_Click"/>
+        <Button Content="2050 AD" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="389,232,0,0" Grid.Row="1" VerticalAlignment="Top" Height="110" Width="184" Background="DarkCyan" Click="Future_Click"/>
     </Grid>
 </Page>

@@ -21,5 +21,33 @@ namespace Time_Machine
         {
             InitializeComponent();
         }
+
+        private void Dinosaur_Click(object sender, RoutedEventArgs e)
+        {
+            Dinosaurs Dino_page = new Dinosaurs();
+            this.NavigationService.Navigate(Dino_page);
+        }
+
+        private void Pyramid_Click(object sender, RoutedEventArgs e)
+        {
+            Pyramids Pyramid_page = new Pyramids();
+            this.NavigationService.Navigate(Pyramid_page);
+
+        }
+
+
+        private void Future_Click(object sender, RoutedEventArgs e)
+        {
+            Future future_page = new Future();
+            this.NavigationService.Navigate(future_page);
+        }
+
+        private void Internet_Click(object sender, RoutedEventArgs e)
+        {
+            Internet internet_page = new Internet();
+            this.NavigationService.Navigate(internet_page);
+        }
+
+
     }
 }

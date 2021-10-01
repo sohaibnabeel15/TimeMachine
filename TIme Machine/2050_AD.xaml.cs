@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -11,16 +11,23 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TIme_Machine
+namespace Time_Machine
 {
     /// <summary>
-    /// Interaction logic for _2050_AD.xaml
+    /// Interaction logic for Future.xaml
     /// </summary>
-    public partial class _2050_AD : Page
+    public partial class Future : Page
     {
-        public _2050_AD()
+        public Future()
         {
             InitializeComponent();
+        }
+
+        private void TimeMachine_Click(object sender, RoutedEventArgs e)
+        {
+            Select_Year year_page = new Select_Year();
+            this.NavigationService.Navigate(year_page);
+
         }
     }
 }

@@ -11,7 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TIme_Machine
+namespace Time_Machine
 {
     /// <summary>
     /// Interaction logic for Pyramids.xaml
@@ -22,5 +22,12 @@ namespace TIme_Machine
         {
             InitializeComponent();
         }
+        private void TimeMachine_Click(object sender, RoutedEventArgs e)
+        {
+            Select_Year year_page = new Select_Year();
+            this.NavigationService.Navigate(year_page);
+
+        }
+
     }
 }

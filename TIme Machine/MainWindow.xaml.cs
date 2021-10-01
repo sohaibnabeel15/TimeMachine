@@ -33,5 +33,10 @@ namespace Time_Machine
         {
 
         }
+
+        private void tooltip_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

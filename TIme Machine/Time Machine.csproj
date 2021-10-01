@@ -8,12 +8,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\dino1.jpg" />
+    <None Remove="Images\Dinosaur.jpg" />
+    <None Remove="Images\future.jpg" />
+    <None Remove="Images\information.png" />
+    <None Remove="Images\internet.jpg" />
+    <None Remove="Images\pyramid.jpg" />
     <None Remove="Images\Space.jpg" />
     <None Remove="Images\TimeMachine.jpg" />
     <None Remove="Images\Time_Machine.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\dino1.jpg" />
+    <Resource Include="Images\Dinosaur.jpg" />
+    <Resource Include="Images\future.jpg" />
+    <Resource Include="Images\information.png" />
+    <Resource Include="Images\internet.jpg" />
+    <Resource Include="Images\pyramid.jpg" />
     <Resource Include="Images\Space.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>

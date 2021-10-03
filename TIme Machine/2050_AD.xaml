@@ -1,11 +1,11 @@
-﻿<Page x:Class="Time_Machine.Future"
+<Page x:Class="Time_Machine.Future"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TIme_Machine"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="650"
+      d:DesignHeight="450" d:DesignWidth="800"
       Title="The Future">
 
     <Grid x:Name="Future_page" Background="Beige">
@@ -15,12 +15,12 @@
 
         </StackPanel>
 
-            <TextBlock Grid.Column="15" HorizontalAlignment="Center" VerticalAlignment="Top">
+        <TextBlock Grid.Column="15" HorizontalAlignment="Center" VerticalAlignment="Top">
             2050 AD <LineBreak></LineBreak>
             Welcome to the future!
-            </TextBlock>
+        </TextBlock>
 
-        
+
 
 
         <Canvas
@@ -33,13 +33,13 @@
             Canvas.Right="16"
             Source="\Images\information.png"
             Width="48"
-            Height="66" Canvas.Left="950" Canvas.Top="1">
+            Height="66" Canvas.Left="1220" Canvas.Top="-9">
                 <Image.ToolTip>
                     <ToolTip x:Name="tooltip1">
                         <TextBlock x:Name="tooltiptext">
                             The Future: 2050.
                             <LineBreak/>
-                          You have travelled 19 years into the future. What have you found?
+                          You have travelled 29 years into the future. What have you found?
 
                         </TextBlock>
                     </ToolTip>
